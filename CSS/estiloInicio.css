@@ -18,7 +18,11 @@ nav{
     background-color: #FF9FB2;
     font-size: 20px;
     margin-bottom: 5px;
-    
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 5px;
 }
 .imgmargin{
     margin-top: 5px;
@@ -69,28 +73,36 @@ a:hover {
     color: #351431;
 }
 
-.texto{
-    text-align: justify;
-    font-size: 18px;
-    margin: 5px;
-}
 .encabezado{
     text-align: center;
 }
 .container{
     padding: 0;
     padding-right: 0;
-    
+    margin:0;
 }
 .icono{
     width: 30px;
     height: 30px;
 }
-@media(max-width:768px){
+@media(max-width:584px){
     nav{
         display: block;
+        margin: 0;
+        width: auto;
     }
     .link{
         display: block;
     }
+    .container{
+        margin: 0;
+        margin-right: 0;
+    }
+    .portada{
+        width: 100%;
+    }
+    .encabezado{
+        text-align: justify;
+    }
+    
 }
